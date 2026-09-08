@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  codigoqr:
+    build: .
+    container_name: codigoqr
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
